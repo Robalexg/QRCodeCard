@@ -1,0 +1,14 @@
+.card--container{
+    background-color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    width: 50%;
+    margin: auto auto;
+}
+
+.card--image{
+    width: 40%;
+    border-radius: .5em;
+}
+
