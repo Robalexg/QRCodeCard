@@ -4,7 +4,7 @@
     flex-flow: column nowrap;
     align-items: center;
     width: 25%;
-    height: 72%;
+    height: auto;
     margin: auto auto;
     padding: .9em;
     border-radius: 1.5em;
@@ -18,14 +18,14 @@
 }
 
 .card--container > h1{
-    font-size: 1.4em;
+    font-size: 1.5vw;
     font-weight: 700;
     width: 80%;
     margin-bottom: 0;
 }
 
 .card--container > h3{
-    font-size: .9em;
+    font-size: 1.1vw;
     font-weight: 400;
     width: 75%;
     color:grey;
