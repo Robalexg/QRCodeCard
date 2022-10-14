@@ -3,12 +3,31 @@
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    width: 50%;
+    width: 25%;
+    height: 72%;
     margin: auto auto;
+    padding: .9em;
+    border-radius: 1.5em;
+    text-align: center;
+    box-shadow: 1em 1em 2em rgba(0, 0, 0, .1);
 }
 
 .card--image{
-    width: 40%;
-    border-radius: .5em;
+    width: 100%;
+    border-radius: .7em;
+}
+
+.card--container > h1{
+    font-size: 1.4em;
+    font-weight: 700;
+    width: 80%;
+    margin-bottom: 0;
+}
+
+.card--container > h3{
+    font-size: .9em;
+    font-weight: 400;
+    width: 75%;
+    color:grey;
 }
 
